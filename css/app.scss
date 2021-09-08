@@ -180,7 +180,7 @@ nav {
 	&.main {
 		position: fixed;
 		width: 100%;
-		// background-color: #0007;
+		background-color: #0002;
 		left: 0;
 		top: 0;
 		z-index: 5;
@@ -297,11 +297,12 @@ article {
 	// padding: 2rem;
 	border-radius: 100%;
 	box-shadow: 2px 2px 2px #ffed00, -2px -2px 0px orange;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 300px;
+	max-height: 300px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	// backdrop-filter: blur(3px);
 
 	img {
 		width: 100%;
@@ -395,6 +396,12 @@ article {
 	}
 }
 
+.text-main{
+	color: white;
+    text-shadow: 1px 1px 0 #999, 2px 2px 0 #777, -2px 0px 30px orange, 5px 5px 24px #000a;
+    letter-spacing: 2px;
+}
+
 .mainMenu {
 	margin: 0;
 	display: flex;
@@ -403,7 +410,7 @@ article {
 		display: none;
 	}
 
-	gap: 1rem;
+	// gap: 1rem;
 
 	li {
 		a {
@@ -412,18 +419,37 @@ article {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			padding: 1rem 0.2rem;
+			height: 100%;
+			padding: 0rem 1rem;
 			gap: 0.3rem;
+			position: relative;
 			letter-spacing: 1px;
+			background-color: transparent;
 
-			&:hover {
-				color: tone.$yellow;
+			&::before{
+				content: ' ';
+				position: absolute;
+				left: 0;
+				bottom: -20px;
+				width: 100%;
+				height: 20px;
+				background-color: transparent;
+				clip-path: polygon(0 0, 100% 0, 50% 100%);
+			}
+			
+			&:hover,&.active {
+				color: #ffffff;
+				background: linear-gradient(to top, #216bf3, #00bcd4);
+	
+				&::before{
+					background-color: #216bf3;
+				}
 			}
 		}
 	}
 }
 .buttonSlider{
-	text-shadow: 3px 0px 1px #03a9f4, 3px 3px 10px black;
+	text-shadow: 3px 3px 30px orange, 2px 2px 0 #aaa;
 }
 
 .sliders {
@@ -441,6 +467,7 @@ article {
 	}
 
 	figcaption {
+		display: none;
 		position: absolute;
 		color: white;
 		text-align: center;
