@@ -1,13 +1,20 @@
 import Slider from './ts/Slider';
+import WOW from './frameworks/wow';
 
 let slider:any = new Slider('.sliders',15000);
 
 document.addEventListener('DOMContentLoaded',handlerStart);
 
 function handlerStart(event:any){
+
     window.addEventListener('scroll',handlerScroll);
     document.addEventListener('click',handlerClick);
-
+    let wow = new WOW({
+        offset: 100
+    })
+    
+    wow.init();
+    
     console.log('start APP.')
     console.log(slider.getSliders() )
     return null;
