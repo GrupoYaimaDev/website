@@ -1,0 +1,8 @@
+RewriteEngine On
+#RewriteBase /www.grupoamenca.com
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([a-zA-Z].*)$ $1.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-zA-Z].*)$ $1.php

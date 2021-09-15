@@ -1,24 +1,34 @@
+/**
+ * Clase principal para controlar un Slider
+ */
 export default class Slider {
 	selector: any;
 	timer: any;
+	time: number = 0;
 	pos: number = 0;
 	size: number;
 
 	constructor(selector: string, time: number) {
 		this.selector = document.querySelectorAll(selector);
-        this.start(time)
+		this.time = time
 	}
     
 	public getSliders = () => {
         return this.selector;
 	};
     
-	public start = (t: number) => {
+	/**
+	 * este metodo es el inicializador de la clase Slider
+	 */
+	public start = () => {
         this.size = this.selector.length;
         this.NextSlider()
-        this.timer = setInterval(this.NextSlider, t);
+        this.timer = setInterval(this.NextSlider, this.time);
 	};
 
+	/**
+	 * Pasa a mostrar el siguiente Slide del Slider
+	 */
 	public NextSlider = () => {
 
 		this.count(false);
@@ -31,7 +41,9 @@ export default class Slider {
 		}
 
 	};
-
+	/**
+	 * Pasa a mostrar el anterior Slide del Slider
+	 */
 	public BackSlider = () => {
 
 		this.count(true);
