@@ -62,7 +62,7 @@ export function createCard(selector: string, data: any[]) {
                     </span>
                     <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. -->
                 </p>
-                <a href="#">solicitar <i class="fi fi-sr-shopping-cart-add"></i> </a>
+                <a href="https://api.whatsapp.com/send/?phone=584124664420&text=Hola, me gustaria obtener información acerca del precio y disponibilidad del producto, ${i.name}">solicitar <i class="fi fi-sr-shopping-cart-add"></i></a>
             </div>
         `;
 

@@ -18,9 +18,9 @@
             <i class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger" class="buttonMenu">
             </i>
             <ul class="mainMenu hidden md:flex" class="mainMenu">
-                <li><a href="./">Inicio</a></li>
-                <li><a href="./productos" class="active">Productos<i class="flex items-center fi fi-sr-angle-small-down"></i></a></li>
-                <li><a href="#">Nosotros</a></li>
+            <li><a href="./">Inicio</a></li>
+                <li><a href="./productos" class="active">Productos</a></li>
+                <li><a href="./nosotros">Nosotros</a></li>
                 <!-- <li><a href="#">Menu<i class="flex items-center fi fi-sr-angle-small-down"></i></a></li> -->
             </ul>
         </div>
@@ -38,7 +38,7 @@
                     Comercializamos con solo <span class="popBold">lo mejor</span> de nuestra <span class="popBold">Tierra</span>.
                 </span>
                 <!-- <span class="popBold text-xl md:text-3xl">GRUPO YAIMA, C.A</span><br> -->
-                    <a href="#" class="blackButton w-200p hover:bg-yellow-button" style="text-shadow: none;">Ver Productos</a>
+                    <a href="#productsContainer" class="blackButton w-200p hover:bg-yellow-button" style="text-shadow: none;">Ver Productos</a>
 
             </p>
         </div>
@@ -54,17 +54,15 @@
             <p class="text-justify_center ">
                 En <span class="popBold">GRUPO YAIMA, C.A</span>: para cumplir con las expectativas de nuestros clientes, nos mantenemos en constante mejoramiento he innovando en cada momento con cada uno de nuestros productos. Para alcanzar las expectativas de nuestros distinguidos clientes y las exigencias del mercado actual.
             </p>
-            <form action="" class="flex gap-4 justify-center mt-8">
+            <!-- <form action="" class="flex gap-4 justify-center mt-8">
                 <select class="text-white bg-black bg-opacity-50 p-2 px-4 rounded" name="" id="">
-                    <!-- <optgroup title="mucjos"> -->
                         <option value="">Materia Prima</option>
                         <option value="">Materia Procesada</option>
                         <option value="">Organiquimicos</option>
                         <option value="">Aceites</option>
-                    <!-- </optgroup> -->
                 </select>
                 <button class="blackButton dot-left bg-op-50 flex hover:bg-blue-button justify-center items-center gap-2"><span>BUSCAR</span><i class="fi fi-sr-search flex items-center"></i></button>
-            </form>
+            </form> -->
         </article>
     </section>
     <section class="overflow-hidden bg-lightwhite py-12 inner-block" style="background-image: url(./src/pattern.png)">
@@ -100,7 +98,7 @@
     </section>
     <section class="borde-y-white bg-white w-full py-8 overflow-hidden">
         <article class="wow animated fadeInLeft max-w-3xl rounded-md mx-auto w-full p-4 xl:p-8">
-            <h2 class="pb-4">Estamos en redes sociales</h2>
+            <h2 class="pb-4">Medios electronicos y redes sociales</h2>
             <div class="decoration-header pb-4">
                 <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 <i class="text-blue text-lg fi fi-sr-marker"></i>
@@ -111,39 +109,44 @@
             </p>
         </article>
         <div class="mt-8 md:mt-4 flex max-w-xs md:max-w-lg mx-auto flex-wrap gap-8 justify-center">
-            <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInLeft" href="#">
+            <!-- <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInLeft" href="#">
                 <img src="./src/icons/icon-f.png" class="img-invert w-full" alt="">
-            </a>
-            <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
-                <img src="./src/icons/icon-tw.png" class="img-invert w-full" alt="">
+            </a> -->
+            <a class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+                <img src="./src/icons/icon-ws.png" class="img-invert w-full" alt="">
             </a>
             <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
                 <img src="./src/icons/icon-tl.png" class="img-invert w-full" alt="">
             </a>
-            <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInRight" href="#">
+            <a class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="#">
                 <img src="./src/icons/icon-instagram.png" class="img-invert w-full" alt="">
             </a>
         </div>
     </section>
     <footer class="bg-black-b w-full py-24">
-        <div class="grid max-w-5xl mx-auto grid gap-8 md:grid-cols-3">
-            <div>
-                <!-- <ul class="menu">
-                <li>MENU</li>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Nosotros</a></li>
-            </ul> -->
+        <div class="max-w-5xl mx-auto grid gap-4">
+            <div class="flex justify-center pb-12">
+                <img src="./src/logo-verde.png" class="wow fadeIn transition h-200p" alt="Logo de Grupo Yaima, C.A">
             </div>
-            <div class="flex justify-center">
-                <img src="./src/logo-verde.png" class="wow fadeIn transition h-200p filter_contrast_0 hover:filter_contrast_1" alt="Logo de Grupo Yaima, C.A">
+            <div class="flex flex-col md:flex-row gap-4 max-w-5xl">
+                <address class="direcciones hover:bg-blue bg-black bg-opacity-30 grid gap-4 rounded-md text-justify_center text-white p-4 px-8">
+                    <b>Oficina de Ventas:</b>
+                    <span>
+                        Calle Fernando Figueredo, entre Av. Bolivar y Ricaurte. Edif: Yaima, Planta Baja, Sector Guarataro. <br> Tinaquillo - Estado Cojedes.
+                    </span>
+                </address>
+                <address class="direcciones hover:bg-blue bg-black bg-opacity-30 grid gap-4 rounded-md text-justify_center text-white p-4 px-8">
+                    <b>Planta y Silos:</b>
+                    <span>
+                        Carretera Nacional, cruce la redoma, Av. los pioneros, local Galpon n°1 Sector Palo Gordo. <br> Araure - Estado Portuguesa.
+                    </span>
+                </address>
             </div>
-            <div></div>
-            <div class="col-span-3 text-white text-center grid">
-                <b>
+            <div class="text-white bg-black p-2 rounded-md bg-opacity-30 text-center flex flex-col md:flex-row justify-center gap-2">
+                <b class="lg:border-r-2 border-white pr-2">
                     WWW.GRUPOYAIMA.COM
                 </b>
-                <span>
+                <span class="lg:border-r-2 border-white pr-2">
                     Todos los derechos reservados 2021 &reg;
                 </span>
                 <span>
