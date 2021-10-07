@@ -81,7 +81,7 @@
             <div class="wow fadeInRight flex flex-col justify-center items-center rounded-md gap-6 w-full items-center">
                 <img src="./src/circle-3.jpg" class="box-shadow_first_img w-200p rounded-full" alt="">
                 <span class="text-sm w-300p tracking-wider text-center">Contamos con una gran red Comercial, para la distribucion de nuestros productos.</span>
-                <a href="#" class="blackButton hover:bg-green-button">mas informacion</a>
+                <a href="./nosotros" class="blackButton hover:bg-green-button">mas informacion</a>
             </div>
         </article>
     </section>
@@ -96,13 +96,13 @@
                     <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
                 <p class="p-8 text-sm text-justify">
-                    En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte solo lo mejor, por eso te ofrecemos un gran apartado en lo mejor de productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas.
+                    En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas.
                 </p>
             </div>
         </article>
         <article class="productsContainer max-w-5xl mx-auto py-8">
             <div class="wow fadeInLeft Card">
-                <img src="./src/productos/trigo.jpg" alt="">
+                <img src="./src/productos/afrecho-trigo.jpg" alt="">
                 <p>
                     <i class="fi fi-sr-box-alt"></i>
                     <b>
@@ -165,7 +165,7 @@
         <picture class="absolute top-0 left-0 w-full h-full mask bg-fixed invert bg-img bg-main" style="background-image: url(./src/img1.jpg);"></picture>
         <div class="title wow fadeIn">
             <p>
-                La mejor calidad y la mayor cantidad.
+                Materias primas de la mejor calidad a tu alcance
             </p>
         </div>
     </section>
@@ -220,7 +220,7 @@
             <h2 class="pb-4">Medios electronicos y redes sociales</h2>
             <div class="decoration-header pb-4">
                 <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                <i class="text-blue text-lg fi fi-sr-marker"></i>
+                <i class="text-blue text-lg fi fi-sr-world"></i>
                 <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
             <p class="text-justify_center p-4">
@@ -242,26 +242,39 @@
             </a>
         </div>
     </section>
-    <footer class="bg-black-b w-full py-24">
-        <div class="max-w-5xl mx-auto grid gap-4">
-            <div class="flex justify-center pb-12">
-                <img src="./src/logo-verde.png" class="wow fadeIn transition h-200p" alt="Logo de Grupo Yaima, C.A">
+    <section class="bg-blue mask no_top w-full py-8 overflow-hidden">
+        <article class="wow animated fadeInDown max-w-3xl rounded-md mx-auto text-white w-full p-4 xl:p-8">
+            <h2 class="pb-4">Ubicanos</h2>
+            <div class="decoration-header pb-4">
+                <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <i class="text-yellow text-lg fi fi-sr-marker"></i>
+                <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
-            <div class="flex flex-col md:flex-row gap-4 max-w-5xl">
-                <address class="direcciones hover:bg-blue bg-black bg-opacity-30 grid gap-4 rounded-md text-justify_center text-white p-4 px-8">
+            <p class="text-justify_center p-4">
+               Visitanos en nuestras Oficinas y sedes.
+            </p>
+        </article>
+        <div class="flex flex-col md:flex-row max-w-5xl gap-4 mx-auto mb-12">
+                <address class="direcciones bg-black wow fadeInLeft bg-opacity-10 hover:bg-blue grid gap-4 text-justify_center text-white p-4 px-8">
                     <b>Oficina de Ventas:</b>
                     <span>
                         Calle Fernando Figueredo, entre Av. Bolivar y Ricaurte. Edif: Yaima, Planta Baja, Sector Guarataro. <br> Tinaquillo - Estado Cojedes.
                     </span>
                 </address>
-                <address class="direcciones hover:bg-blue bg-black bg-opacity-30 grid gap-4 rounded-md text-justify_center text-white p-4 px-8">
+                <address class="direcciones bg-black wow fadeInRight bg-opacity-10 hover:bg-blue grid gap-4 rounded-md text-justify_center text-white p-4 px-8">
                     <b>Planta y Silos:</b>
                     <span>
                         Carretera Nacional, cruce la redoma, Av. los pioneros, local Galpon n°1 Sector Palo Gordo. <br> Araure - Estado Portuguesa.
                     </span>
                 </address>
             </div>
-            <div class="text-white bg-black p-2 rounded-md bg-opacity-30 text-center flex flex-col md:flex-row justify-center gap-2">
+    </section>
+    <footer class="bg-black overflow-hidden relative w-full pt-24">
+        <div class="max-w-5xl mx-auto grid gap-4">
+            <div class="flex justify-center pb-12">
+                <img src="./src/logo-verde.png" class="wow fadeIn transition h-200p" alt="Logo de Grupo Yaima, C.A">
+            </div>
+            <div class="text-white p-2 border-t border-white border-opacity-10 rounded-md bg-opacity-30 text-center flex flex-col md:flex-row justify-center gap-2">
                 <b class="lg:border-r-2 border-white pr-2">
                     WWW.GRUPOYAIMA.COM
                 </b>

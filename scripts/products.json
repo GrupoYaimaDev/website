@@ -6,12 +6,14 @@
     {"id":4,"name":"Harina de Carne","cat":1,"number":"+580000000000","desc":"No desc","img":"harina-carne.jpg"},
     {"id":5,"name":"Maiz","cat":0,"number":"+580000000000","desc":"No desc","img":"maiz.jpg"},
     {"id":6,"name":"Maiz Roto&nbsp;<small>(Pico)</small>","cat":0,"number":"+580000000000","desc":"No desc","img":"maiz.jpg"},
-    {"id":7,"name":"Trigo","cat":0,"number":"+580000000000","desc":"No desc","img":"trigo-semilla.jpg"},
+    {"id":7,"name":"<small>Aceite Soya y Palma (Consumo Animal)</small>","cat":0,"number":"+580000000000","desc":"No desc","img":"default.jpg"},
     {"id":8,"name":"Afrecho de Trigo","cat":1,"number":"+580000000000","desc":"No desc","img":"afrecho-trigo.jpg"},
-    {"id":9,"name":"Afrecho de Arroz","cat":1,"number":"+580000000000","desc":"No desc","img":"afrecho-Arroz.jpg"},
+    {"id":9,"name":"Afrecho de Arroz","cat":1,"number":"+580000000000","desc":"No desc","img":"afrecho-arroz.jpg"},
     {"id":10,"name":"Melaza","cat":1,"number":"+580000000000","desc":"No desc","img":"melaza.jpg"},
     {"id":11,"name":"Leche&nbsp;<small>(Consumo Animal)</small>","cat":1,"number":"+580000000000","desc":"No desc","img":"leche.jpg"},
     {"id":12,"name":"Metrionina","cat":2,"number":"+580000000000","desc":"No desc","img":"metionina.jpg"},
     {"id":13,"name":"Lizina","cat":2,"number":"+580000000000","desc":"No desc","img":"lisina.jpg"},
-    {"id":14,"name":"Treonina","cat":2,"number":"+580000000000","desc":"No desc","img":"treonina.jpg"}
+    {"id":14,"name":"Treonina","cat":2,"number":"+580000000000","desc":"No desc","img":"treonina.jpg"},
+    {"id":15,"name":"Concentrin 60","cat":0,"number":"+580000000000","desc":"No desc","img":"default.jpg"},
+    {"id":16,"name":"Concentrin 21","cat":0,"number":"+580000000000","desc":"No desc","img":"default.jpg"}
 ]
