@@ -48,7 +48,8 @@ export function createCard(selector: string, data: any[]) {
 	data.map((i:int_product) => {
 		let item: any = `
             <div class="wow fadeIn Card">
-                <img src="./src/productos/${i.img}" alt="">
+                <img class="logo" src="./src/logo-verde.png" alt="grupoyaima | logo de grupo yaima">
+                <img src="./src/productos/${i.img}" alt="grupoyaima | ${i.name}">
                 <p style="text-align:center;justify-content:center">
                     <b>
                         ${i.name}
@@ -62,7 +63,10 @@ export function createCard(selector: string, data: any[]) {
                     </span>
                     <!-- Lorem, ipsum dolor sit amet consectetur adipisicing elit. -->
                 </p>
-                <a href="https://api.whatsapp.com/send/?phone=584124664420&text=Hola, me gustaria obtener información acerca del precio y disponibilidad del producto, ${i.name}">solicitar <i class="fi fi-sr-shopping-cart-add"></i></a>
+				<span class="grid grid-cols-2 gap-2 p-2">
+                <a class="no_m" target="_blank" href="https://api.whatsapp.com/send/?phone=584244320503&text=Hola, me gustaria obtener información acerca del precio y disponibilidad del producto, ${i.name}"><i class="fi fi-sr-smartphone"></i>WHATSAPP</a>
+                <a class="no_m" target="_blank" href="mailto:grupoyaima2020@gmail.com"><i class="fi fi-sr-comment-alt"></i>CORREO</a>
+				</span>
             </div>
         `;
 

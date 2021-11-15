@@ -6,6 +6,7 @@ var Slider = /** @class */ (function () {
         var _this = this;
         this.time = 0;
         this.pos = 0;
+        this.contador = 0;
         this.getSliders = function () {
             return _this.selector;
         };
@@ -14,8 +15,17 @@ var Slider = /** @class */ (function () {
          */
         this.start = function () {
             _this.size = _this.selector.length;
-            _this.NextSlider();
-            _this.timer = setInterval(_this.NextSlider, _this.time);
+            // this.NextSlider()
+            _this.timer = setInterval(function () { _this.countSlider(); }, 1000);
+        };
+        this.countSlider = function () {
+            if (_this.time < _this.contador) {
+                _this.time++;
+            }
+            else {
+                _this.NextSlider();
+            }
+            // console.log(this.time)
         };
         /**
          * Pasa a mostrar el siguiente Slide del Slider
@@ -30,6 +40,7 @@ var Slider = /** @class */ (function () {
                     _this.selector[i].classList.add("hidden");
                 }
             }
+            _this.time = 0;
         };
         /**
          * Pasa a mostrar el anterior Slide del Slider
@@ -44,6 +55,7 @@ var Slider = /** @class */ (function () {
                     _this.selector[i].classList.add("hidden");
                 }
             }
+            _this.time = 0;
         };
         this.count = function (inv) {
             if (inv) {
@@ -66,6 +78,7 @@ var Slider = /** @class */ (function () {
         };
         this.selector = document.querySelectorAll(selector);
         this.time = time;
+        this.contador = (time / 1000);
     }
     return Slider;
 }());

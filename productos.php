@@ -7,18 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos | GRUPOYAIMA.COM</title>
-    <link rel="stylesheet" href="./css/app.css?<?php echo $date ?>">
+
+
+    <meta property="og:title" content="GRUPO YAIMA | Productos"/>
+    <meta property="og:site_name" content="Grupo Yaima | Comercializadora de Insumos y Agro-insumos"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.grupoyaima.com/productos" />
+    <meta property="og:image" content="https://www.grupoyaima.com/src/opengraph-grupoyaima.jpg"/>
+    <meta property="og:description" content="En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas."/>
+    <meta name="description" content="En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas.">
+    <meta name="keywords" content="productos grupoyaima,productos grupo yaima, yaima,productos ABA, comercializadora de insumos,productos agroinsumos, Materia Prima, granos, portuguesa, venezuela grupo yaima, harina, consumo animal, aportando al futuro, somos yaima, sitio web yaima">
+    <meta name="author" content="Desarrollador web : Elieser Silva novaelirs15@gmail.com | Diseñador Grafico : Jairo Barrios jairo.behance.net@gmail.com">
+
     <link rel="shortcut icon" href="./src/logo-verde.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/app.css?<?php echo $date ?>">
 </head>
 
 <body class="bg-black" style="background: linear-gradient(357deg, #040404, #313131);">
     <nav class="main full" id="mainNav">
         <div class="max-w-5xl mx-auto flex justify-between">
             <img src="./src/logo-txt.png" id="mainLogo" alt="Logo Vertical de Grupo Yaima, C.A" style="filter: drop-shadow(-1px 0px 0px trasnparent) saturate(1.3);" class="logo h-12 py-1" srcset="">
-            <i class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger" class="buttonMenu">
-            </i>
-            <ul class="mainMenu hidden md:flex" class="mainMenu">
-            <li><a href="./">Inicio</a></li>
+            <label style="font-family: 'uicons-solid-rounded';" for="showerMenu" class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger buttonMenu">
+            </label>
+            <input type="checkbox" id="showerMenu" class="hidden">
+            <ul class="mainMenu md:flex" class="mainMenu">
+                <li><a href="./">Inicio</a></li>
                 <li><a href="./productos" class="active">Productos</a></li>
                 <li><a href="./nosotros">Nosotros</a></li>
                 <!-- <li><a href="#">Menu<i class="flex items-center fi fi-sr-angle-small-down"></i></a></li> -->
@@ -29,7 +42,7 @@
         <figure class="mask fadeBottom bg-img bg-main sliders animated fadeInLeft" id="main-picture" style="background-image: url(./src/slide4.jpg);">
             <!-- <figcaption>Alta-tecnologia he innovacion.</figcaption> -->
         </figure>
-        <div class="wow bounceIn absolute left-0 top-0 w-full h-600p bg-red z-10 flex flex-col justify-center items-center">
+        <div class="wow bounceIn absolute left-0 top-0 w-full h-600p z-10 flex flex-col justify-center items-center">
             <picture class="logo-second min-size bg-white bg-opacity-30">
                 <img src="./src/logo-verde.png" alt="" srcset="">
             </picture>
@@ -112,13 +125,13 @@
             <!-- <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInLeft" href="#">
                 <img src="./src/icons/icon-f.png" class="img-invert w-full" alt="">
             </a> -->
-            <a class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+            <a target="_blank" class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="https://api.whatsapp.com/send/?phone=584124664420&text=Hola, Me gustaria obtener mas información acerca de sus productos y servicios.">
                 <img src="./src/icons/icon-ws.png" class="img-invert w-full" alt="">
             </a>
-            <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+            <!-- <a target="_blank" class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
                 <img src="./src/icons/icon-tl.png" class="img-invert w-full" alt="">
-            </a>
-            <a class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="#">
+            </a> -->
+            <a target="_blank" class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="https://instagram.com/grupoyaima">
                 <img src="./src/icons/icon-instagram.png" class="img-invert w-full" alt="">
             </a>
         </div>

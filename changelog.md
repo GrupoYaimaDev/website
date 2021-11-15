@@ -1,4 +1,24 @@
 ___
+## 20-09 al 15-11-2021
+
+Fase Final del Sitio web de Grupo Yaima, C.A : donde se estan realizando los cambios finales para producción y despliegue del sitio web.
+
+*cambios bases del website:*
+
+* Se mejoro la interacción con el slider, asignado 15 segundos entre imagenes.
+* Añadida Misión y Visión a pagina de nosotros.
+* Botones de redes sociales añadidos boton de WS general y Instagram.
+* Se agrego meta informacion: descripcion, keywords, authors.
+* Se agrego meta informacion de OpenGraph. 
+
+*mejoras en el diseño UI:*
+
+* Mejorado el diseño de las cards de productos, se agrego el boton de enviar a correo y ws, y se le añadio el logo de grupoyaima.
+* Cambiando imagen numero 3 de Slider del index. [ se coloco cosechadora y camion ].
+
+
+**Developer:** @eliesersilva
+___
 ## 19-09-2021
 
 sitio web desarrollado en un 70%, faltan ajustar algunos diseños y textos.

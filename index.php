@@ -7,17 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | GRUPOYAIMA.COM</title>
-    <link rel="stylesheet" href="./css/app.css?<?php echo $date ?>">
+
+    <meta property="og:title" content="GRUPO YAIMA | Inicio"/>
+    <meta property="og:site_name" content="Grupo Yaima | Comercializadora de Insumos y Agro-insumos"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.grupoyaima.com" />
+    <meta property="og:image" content="https://www.grupoyaima.com/src/opengraph-grupoyaima.jpg"/>
+    <meta property="og:description" content="En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas."/>
+    <meta name="description" content="En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas.">
+    <meta name="keywords" content="Grupoyaima, Grupo Yaima, Yaima, ABA, Comercializadora de Insumos, Agroinsumos, Materia Prima, Granos, Portuguesa, Venezuela Grupo Yaima, Harina, Consumo Animal, Aportando al Futuro, Somos yaima, Sitio web Yaima">
+    <meta name="author" content="Desarrollador web : Elieser Silva novaelirs15@gmail.com | Diseñador Grafico : Jairo Barrios jairo.behance.net@gmail.com">
+
     <link rel="shortcut icon" href="./src/logo-verde.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/app.css?<?php echo $date ?>">
 </head>
 
 <body class="bg-black" style="background: linear-gradient(357deg, #040404, #313131);">
     <nav class="main full" id="mainNav">
         <div class="max-w-5xl mx-auto flex justify-between">
             <img src="./src/logo-txt.png" id="mainLogo" alt="Logo Vertical de Grupo Yaima, C.A" style="filter: drop-shadow(-1px 0px 0px trasnparent) saturate(1.3);" class="logo h-12 py-1" srcset="">
-            <i class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger" class="buttonMenu">
-            </i>
-            <ul class="mainMenu hidden md:flex" class="mainMenu">
+            <label style="font-family: 'uicons-solid-rounded';" for="showerMenu" class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger buttonMenu">
+            </label>
+            <input type="checkbox" id="showerMenu" class="hidden">
+            <ul class="mainMenu md:flex" class="mainMenu">
                 <li><a href="./" class="active">Inicio</a></li>
                 <li><a href="./productos">Productos</a></li>
                 <li><a href="./nosotros">Nosotros</a></li>
@@ -32,10 +44,10 @@
         <figure class="mask fadeBottom bg-img bg-main sliders hidden animated fadeInLeft" id="main-picture" style="background-image: url(./src/slide2.jpg);">
             <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
         </figure>
-        <figure class="mask fadeBottom bg-img bg-main sliders hidden animated fadeInLeft" id="main-picture" style="background-image: url(./src/slide3.jpg);">
+        <figure class="mask fadeBottom bg-img bg-main sliders hidden animated fadeInLeft" id="main-picture" style="background-image: url(./src/main-4.jpg);">
             <figcaption>Materia prima, solo de las mejores siembras del pais.</figcaption>
         </figure>
-        <div class="wow bounceIn absolute left-0 top-0 w-full h-screen bg-red z-10 flex flex-col justify-center items-center">
+        <div class="wow bounceIn absolute left-0 top-0 w-full h-screen z-10 flex flex-col justify-center items-center">
             <picture class="logo-second bg-white bg-opacity-30">
                 <img src="./src/logo-verde.png" alt="" srcset="">
             </picture>
@@ -75,13 +87,13 @@
             </div>
             <div class="wow fadeInUp flex flex-col justify-center items-center rounded-md gap-6 w-full items-center">
                 <img src="./src/circle-2.jpg" class="box-shadow_first_img w-200p rounded-full" alt="">
-                <span class="text-sm w-300p tracking-wider text-center">Ofrecemos productos Organiquimos, para la nutricion animal.</span>
+                <span class="text-sm w-300p tracking-wider text-center">Ofrecemos productos Organiquimos, para la nutrici&oacute;n animal.</span>
                 <a href="./productos" class="blackButton hover:bg-blue-button">ver Organiquimicos</a>
             </div>
             <div class="wow fadeInRight flex flex-col justify-center items-center rounded-md gap-6 w-full items-center">
                 <img src="./src/circle-3.jpg" class="box-shadow_first_img w-200p rounded-full" alt="">
-                <span class="text-sm w-300p tracking-wider text-center">Contamos con una gran red Comercial, para la distribucion de nuestros productos.</span>
-                <a href="./nosotros" class="blackButton hover:bg-green-button">mas informacion</a>
+                <span class="text-sm w-300p tracking-wider text-center">Contamos con una gran red Comercial, para la distribuci&oacute;n de nuestros productos.</span>
+                <a href="./nosotros" class="blackButton hover:bg-green-button">Mas informaci&oacute;n</a>
             </div>
         </article>
     </section>
@@ -102,6 +114,7 @@
         </article>
         <article class="productsContainer max-w-5xl mx-auto py-8">
             <div class="wow fadeInLeft Card">
+                <img class="logo" src="./src/logo-verde.png" alt="">
                 <img src="./src/productos/afrecho-trigo.jpg" alt="">
                 <p>
                     <i class="fi fi-sr-box-alt"></i>
@@ -113,6 +126,7 @@
                 <a href="./productos#productsContainer">ver productos</a>
             </div>
             <div class="wow fadeInUp Card">
+                <img class="logo" src="./src/logo-verde.png" alt="">
                 <img src="./src/productos/melaza.jpg" alt="">
                 <p>
                     <i class="fi fi-sr-box-alt"></i>
@@ -124,6 +138,7 @@
                 <a href="./productos#productsContainer">ver productos</a>
             </div>
             <div class="wow fadeInUp Card">
+                <img class="logo" src="./src/logo-verde.png" alt="">
                 <img src="./src/productos/harina.jpg" alt="">
                 <p>
                     <i class="fi fi-sr-box-alt"></i>
@@ -135,6 +150,7 @@
                 <a href="./productos#productsContainer">ver productos</a>
             </div>
             <div class="wow fadeInRight Card">
+            <img class="logo" src="./src/logo-verde.png" alt="">
                 <img src="./src/productos/metrionina.png" alt="">
                 <p>
                     <i class="fi fi-sr-box-alt"></i>
@@ -231,13 +247,13 @@
             <!-- <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInLeft" href="#">
                 <img src="./src/icons/icon-f.png" class="img-invert w-full" alt="">
             </a> -->
-            <a class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+            <a target="_blank" class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="https://api.whatsapp.com/send/?phone=584124664420&text=Hola, Me gustaria obtener mas información acerca de sus productos y servicios.">
                 <img src="./src/icons/icon-ws.png" class="img-invert w-full" alt="">
             </a>
-            <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+            <!-- <a target="_blank" class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
                 <img src="./src/icons/icon-tl.png" class="img-invert w-full" alt="">
-            </a>
-            <a class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="#">
+            </a> -->
+            <a target="_blank" class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="https://instagram.com/grupoyaima">
                 <img src="./src/icons/icon-instagram.png" class="img-invert w-full" alt="">
             </a>
         </div>

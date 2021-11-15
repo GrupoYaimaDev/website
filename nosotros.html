@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include './scripts/main.php'; ?>
 <html lang="es-VE" data-page="['nosotros',0]">
 
 <head>
@@ -6,20 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros | GRUPOYAIMA.COM</title>
-    <link rel="stylesheet" href="./css/app.css?202110071200">
+    
+    <meta property="og:title" content="GRUPO YAIMA | Nosotros"/>
+    <meta property="og:site_name" content="Grupo Yaima | Comercializadora de Insumos y Agro-insumos"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.grupoyaima.com/nosotros" />
+    <meta property="og:image" content="https://www.grupoyaima.com/src/opengraph-grupoyaima.jpg"/>
+    <meta property="og:description" content="En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas."/>
+    <meta name="description" content="En GRUPO YAIMA, C.A Estamos comprometidos con ofrecerte lo mejor, por eso te ofrecemos un gran apartado en productos agro-quimicos, organi-quimico y materias primas para la elaboración de productos agropecuarios. Para cumplir con tus expectativas contamos con grandes alianzas comerciales, para garantizar la disponibilidad y entrega de nuestros productos y materias primas.">
+    <meta name="keywords" content="nosotros grupoyaima,nosotros Grupo Yaima,nosotros Yaima,nosotros ABA,nosotros Comercializadora de Insumos,nosotros Agroinsumos, Materia Prima,nosotros Granos,nosotros Portuguesa,nosotros Venezuela Grupo Yaima, Harina,nosotros Consumo Animal,nosotros Aportando al Futuro, Somos yaima, Sitio web Yaima">
+    <meta name="author" content="Desarrollador web : Elieser Silva novaelirs15@gmail.com | Diseñador Grafico : Jairo Barrios jairo.behance.net@gmail.com">
+    
     <link rel="shortcut icon" href="./src/logo-verde.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/app.css?202111151200">
 </head>
 
 <body class="bg-black" style="background: linear-gradient(357deg, #040404, #313131);">
     <nav class="main full" id="mainNav">
         <div class="max-w-5xl mx-auto flex justify-between">
             <img src="./src/logo-txt.png" id="mainLogo" alt="Logo Vertical de Grupo Yaima, C.A" style="filter: drop-shadow(-1px 0px 0px trasnparent) saturate(1.3);" class="logo h-12 py-1" srcset="">
-            <i class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger" class="buttonMenu">
-            </i>
-            <ul class="mainMenu hidden md:flex" class="mainMenu">
+            <label style="font-family: 'uicons-solid-rounded';" for="showerMenu" class="text-white text-3xl md:hidden flex justify-center items-center w-12 bg-black bg-opacity-10 fi fi-sr-menu-burger buttonMenu">
+            </label>
+            <input type="checkbox" id="showerMenu" class="hidden">
+            <ul class="mainMenu md:flex" class="mainMenu">
                 <li><a href="./">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./nosotros.html" class="active">Nosotros</a></li>
+                <li><a href="./productos">Productos</a></li>
+                <li><a href="./nosotros" class="active">Nosotros</a></li>
                 <!-- <li><a href="#">Menu<i class="flex items-center fi fi-sr-angle-small-down"></i></a></li> -->
             </ul>
         </div>
@@ -28,7 +41,7 @@
         <figure class="mask fadeBottom bg-img bg-main sliders animated fadeInLeft" id="main-picture" style="background-image: url(./src/slide5.jpg);">
             <!-- <figcaption>Alta-tecnologia he innovacion.</figcaption> -->
         </figure>
-        <div class="wow bounceIn absolute left-0 top-0 w-full h-600p bg-red z-10 flex flex-col justify-center items-center">
+        <div class="wow bounceIn absolute left-0 top-0 w-full h-600p z-10 flex flex-col justify-center items-center">
             <picture class="logo-second bg-white bg-opacity-30">
                 <img src="./src/logo-verde.png" alt="" srcset="">
             </picture>
@@ -51,13 +64,13 @@
                 <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
             <p class="text-justify_center ">
-                Somos especialistas de la comercialización y distribución de materias primas de alta calidad nutricional, para la producción de productos agro-alimentarios(ABA). somos comercializadora de insumos y agro-insumos con capacidad de respuesta a la alta demanda del mercado.
+                Somos especialistas de la comercializaci&oacute;n y distribuci&oacute;n de materias primas de alta calidad nutricional, para la producci&oacute;n de productos agro-alimentarios(ABA). somos comercializadora de insumos y agro-insumos con capacidad de respuesta a la alta demanda del mercado.
             </p>
         </article>
     </section>
     <section class="overflow-hidden bg-lightwhite py-12 inner-block" style="background-image: url(./src/pattern.png)">
         <article class="grid max-w-5xl text-white rounded-xl overflow-hidden tracking-wide mx-auto my-8">
-            <div class="bg-blue grid grid-cols-2">
+            <div class="bg-blue grid md:grid-cols-2">
                 <img src="./src/slide3.jpg" class="h-400p object-cover w-full" alt="">
                 <div class="flex flex-col gap-4 justify-center items-center p-8">
                     <h2 class="mt-4">Nuestra Misión</h2>
@@ -67,12 +80,12 @@
                         <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </div>
                     <p class="text-sm text-justify_center">
-                        Ser un elemento esencial para los clientes con nuestros productos y servicios, diferenciados por la alta calidad y eficiencia que nos caracteriza manteniendo así nuestro apoyo constante al productor nacional.
+                    <b class="popBold">GRUPO YAIMA </b>  es una empresa integra, honesta y responsable dedicada a la distribuci&oacute;n y comercializaci&oacute;n de materias primas, insumos y agro-insumos diferenciados por la alta calidad y eficiencia que nos caracteriza manteniendo así nuestro apoyo constante al productor nacional.
                     </p>
                 </div>
             </div>
-            <div class="bg-green grid grid-cols-2">
-                <img src="./src/vision.jpg" class="order-1 h-400p object-cover w-full" alt="">
+            <div class="bg-green grid md:grid-cols-2">
+                <img src="./src/vision.jpg" class="md:order-1 h-400p object-cover w-full" alt="">
                 <div class="flex flex-col gap-4 justify-center items-center p-8">
                     <h2 class="mt-4">Nuestra Visión</h2>
                     <div class="decoration-header pb-4">
@@ -81,7 +94,7 @@
                         <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </div>
                     <p class="text-sm text-justify_center">
-                        Ir hacia un crecimiento rentable y sostenible para mejorar y expandir nuestra gama de productos y servicios, sirviendo mejor a nuestros clientes para ser siempre relevantes en sus vidas y formar relaciones comerciales duraderas.
+                    <b class="popBold">GRUPO YAIMA</b> proyecta un crecimiento rentable y sostenible para mejorar y expandir nuestra gama de productos y servicios queriendo posicionarse entre los mejores comercializadores y distribuidores de materias primas, insumos y agro-insumos de la más alta calidad comprometidos con el avance y mejora continua en el proceso de industrializaci&oacute;n
                     </p>
                 </div>
             </div>
@@ -106,13 +119,13 @@
                 Sustentabilidad
             </span>
             <span class="bg-yellow text-black popBold uppercase tracking-wider rounded bg-opacity-20 px-4 h-8 flex items-center">
-                Innovación
+                Innovaci&oacute;n
             </span>
             <span class="bg-yellow text-black popBold uppercase tracking-wider rounded bg-opacity-20 px-4 h-8 flex items-center">
                 Eficiencia
             </span>
             <span class="bg-yellow text-black popBold uppercase tracking-wider rounded bg-opacity-20 px-4 h-8 flex items-center">
-                Colaboracion
+                Colaboraci&oacute;n
             </span>
             <span class="bg-yellow text-black popBold uppercase tracking-wider rounded bg-opacity-20 px-4 h-8 flex items-center">
                 Respeto
@@ -144,20 +157,20 @@
                 <span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </div>
             <p class="text-justify_center p-4">
-                Si deseas obtener información acerca de promociones y eventos únete a nuestra comunidad en redes.
+                Si deseas obtener informaci&oacute;n acerca de promociones y eventos únete a nuestra comunidad en redes.
             </p>
         </article>
         <div class="mt-8 md:mt-4 flex max-w-xs md:max-w-lg mx-auto flex-wrap gap-8 justify-center">
             <!-- <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInLeft" href="#">
                 <img src="./src/icons/icon-f.png" class="img-invert w-full" alt="">
             </a> -->
-            <a class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+            <a target="_blank" class="w-100p h-100p hover:bg-green bg-black-b rounded-full p-4 wow fadeInUp" href="https://api.whatsapp.com/send/?phone=584124664420&text=Hola, Me gustaria obtener mas información acerca de sus productos y servicios.">
                 <img src="./src/icons/icon-ws.png" class="img-invert w-full" alt="">
             </a>
-            <a class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
+            <!-- <a target="_blank" class="w-100p h-100p hover:bg-blue bg-black-b rounded-full p-4 wow fadeInUp" href="#">
                 <img src="./src/icons/icon-tl.png" class="img-invert w-full" alt="">
-            </a>
-            <a class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="#">
+            </a> -->
+            <a target="_blank" class="w-100p h-100p hover:bg-red bg-black-b rounded-full p-4 wow fadeInRight" href="https://instagram.com/grupoyaima">
                 <img src="./src/icons/icon-instagram.png" class="img-invert w-full" alt="">
             </a>
         </div>
@@ -209,6 +222,6 @@
     </footer>
 </body>
 
-<script src="./js/app.js?202110071200" type="module"></script>
+<script src="./js/app.js?202111151200" type="module"></script>
 
 </html>

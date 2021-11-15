@@ -4,14 +4,14 @@ import { LoadProducts } from './ts/function';
 
 
 
-let slider:any = new Slider('.sliders',15000);
+let slider = new Slider('.sliders',15000);
 
 document.addEventListener('DOMContentLoaded',handlerStart);
 
 const dataPage = {
 	index: () => {
         slider.start()
-		console.log("estoy en index");
+		// console.log("estoy en index");
 	},
 	productos: LoadProducts,
 	default: null,
